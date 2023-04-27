@@ -1,0 +1,87 @@
+#adminnavdashboard{
+     /* display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 0vh;
+     margin-left: 5vh; 
+     border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 380px; 
+     background-color: aqua;  */
+
+    height: 90vh;
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    border-right: 1px solid black;
+    
+}
+#adminnavdashboard > h2{
+    font-size: 25px ;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-left: 5vh;
+   padding-top: 2vh;
+   margin-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+
+#adminnavdashboardlist ul li{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+#admindashboard{
+    display: flex;
+}
+
+#adminmaindashboard{
+    height: 90vh;
+    width: 80%;
+}
+#AcademyManagerRegister{
+    border: 1px solid transparent;
+    border-radius: 10px 100px / 120px;
+    width: 400px;
+    margin:0px 0px 0px 500px;
+    padding: 30px 0 10px 50px ; 
+    background-color:rgba(251, 247, 247, 0.975);
+    position: relative;
+    top: 100px;
+}
+
+#AcademyManagerRegister > form >input{
+    margin: 0px 10px;
+    padding: 5px; 
+    cursor: pointer;
+border-radius: 5px;
+border: 1px solid transparent;
+}
+
+#AcademyManagerRegister> form>label{
+    margin: 0px 10px ;
+
+}
+
+#AcademyManagerRegister>form>select{
+    margin: 0px 50px ;
+    padding: 10px;
+}
+#AcademyManagerRegister>form>button{
+    margin: 15px 50px;
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color:orange;
+    border: none;
+    color: white;
+}
+#AcademyManagerRegister1{
+    background-color: orange;
+    width: 80vw;
+    height: 100vh;
+} 

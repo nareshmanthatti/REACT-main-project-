@@ -1,0 +1,257 @@
+#navbar{
+    width: 100vw;
+    height: 10vh;
+     background-color: rgba(0, 0, 0, 0.42);
+    /* border-bottom: 2px solid black; */
+    font-weight: bolder;
+    /* border: 1px solid black; */
+    /* background: linear-gradient(grey ,transparent); */
+    position: absolute;
+    
+}
+
+#navbar > article{
+    width: 90vw;
+    height: inherit;
+   
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+#menulist{
+    flex-basis:70%;
+    /* background-color: blanchedalmond; */
+}
+#logo>h1{
+    flex-basis: 20%;
+    background-color: #f35;
+    color: #43e;
+}
+
+#menulist > article > ul{
+    display: flex;
+    list-style: none;
+    width: 1000px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+   
+}
+#menulist > article > ul >li{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#menulist > article > ul >li:hover{
+     font-size: 25px;
+}
+#menulist > article > ul>li >a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#loginDiv{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 50px 730px 510px;
+    /* background-image: url("white-tablet-with-stethoscope-apple.jpg");
+ background-repeat: no-repeat;
+ background-size: contain; */  
+ /* background-color: rgb(29, 127, 207); */
+ background-image: url("pexels-maxime-francis-2246476.jpg");
+ background-size:cover;
+ background-repeat: no-repeat;
+}
+
+#fieldSet{
+    border: 1px solid transparent;
+    height: 500px;
+    width: 500px;
+    padding: 75px 15px 0px 0px;
+   /* background-image: radial-gradient(
+        farthest-corner at 40px 40px,
+        #f35 0%,
+        #43e 100%
+      ); */
+      background-color: rgba(0, 0, 0, 0.6);
+      
+      border-radius: 50% 20% / 10% 40%;
+      position: absolute;
+      bottom: 50px;
+      background: transparent;
+      backdrop-filter: blur(3px);
+      box-shadow: 0px 0px 20px rgb(17, 162, 224);
+}
+
+#fieldSet >span{
+   position: relative;
+   right: 20px;
+   top: 5px;
+   cursor: pointer;
+   
+}
+#fieldSet >input{
+    padding: 10px;
+    margin: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#fieldSet >input:hover{
+    /* transition: margin-top 2s ease-in-out; */
+    /* font-size: 30px; */
+}
+
+#fieldSet >button{
+    padding: 10px 30px 10px 30px;
+    margin: 50px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: rgb(21, 160, 219);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* body{
+background-image: url("white-tablet-with-stethoscope-apple.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+} */
+
+#loginDiv>h1{
+    color: rgb(48, 48, 221);
+    margin: 0px 0px 0px -480px;
+    position: relative;
+    top: 100px;
+}
+
+#Register1{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 106, 0)
+}
+
+#Register{
+    border: 1px solid transparent;
+    border-radius: 10px 100px / 120px;
+    width: 400px;
+    margin:0px 0px 0px 500px;
+    padding: 30px 0 10px 50px ; 
+    background-color:rgba(251, 247, 247, 0.975);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#Register >form>input {
+    margin: 0px 10px;
+    padding: 5px; 
+    cursor: pointer;
+border-radius: 5px;
+border: 1px solid transparent;
+}
+#Register>form> label{
+    margin: 0px 10px ;
+}
+
+#Register >h1{
+    text-align: center;
+    margin:  20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+#Register>form>select  {
+    margin: 0px 50px ;
+    padding: 10px;
+}
+
+#Register>form>button{
+    margin: 15px 50px;
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color:orange;
+    border: none;
+    color: white;
+}
+
+#home >img{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* #adminnavdashboard > ul >li{
+    list-style: none;
+    line-height: 60px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    padding-left: 5vh;
+    }
+
+#adminnavdashboard > h1> nav{
+    font-size: 25px ;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-left: 5vh;
+   padding-top: 2vh;
+   margin-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 2vh;
+}
+
+#admindashboard > article> #nav{
+    flex-basis: 30vw;
+}
+#admindashboard > article> #main{
+   flex-basis: 70vw;
+}
+
+#AcademyManagerRegister{
+    border: 1px solid transparent;
+    border-radius: 10px 100px / 120px;
+    width: 400px;
+    margin:0px 0px 0px 500px;
+    padding: 30px 0 10px 50px ; 
+    background-color:rgba(251, 247, 247, 0.975);
+    position: relative;
+    top: 100px;
+    left: 100px;
+    flex-basis: 70vw;
+}
+#AcademyManagerRegister > form >input{
+    margin: 0px 10px;
+    padding: 5px; 
+    cursor: pointer;
+border-radius: 5px;
+border: 1px solid transparent;
+}
+
+#AcademyManagerRegister> form>label{
+    margin: 0px 10px ;
+
+}
+
+#AcademyManagerRegister>form>select{
+    margin: 0px 50px ;
+    padding: 10px;
+}
+#AcademyManagerRegister>form>button{
+    margin: 15px 50px;
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color:orange;
+    border: none;
+    color: white;
+}
+#AcademyManagerRegister1{
+    background-color: orange;
+    width: 70vw;
+
+} */
